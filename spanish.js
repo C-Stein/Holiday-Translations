@@ -15,10 +15,8 @@ var Translate = (function() {
     };
 
     translateToSpanish: function(espanol) {
-      
+      var wordArray = espanol.split(" ");
     }
-
-
 },
 })();
 
