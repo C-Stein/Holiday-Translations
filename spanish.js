@@ -5,18 +5,18 @@ var Translate = (function() {
     "and":"y", 
     "happy":"feliz", 
     "new":"nuevo", 
-    "year":"año"}
-};
+    "year":"año"
+  }
+
 
   return {
     getSpanishMatch: function() {
-  
-    return spanishMatch;
-    };
+      return spanishMatch;
+    },
 
     translateToSpanish: function(espanol) {
       var wordArray = espanol.split(" ");
     }
-},
+  }
 })();
 
