@@ -5,6 +5,7 @@ var $selectedLanguage;
 
 function grabText() {
   $textarea = $("#textarea").val();
+  $textarea = $textarea.toLowerCase();
   $selectedLanguage = $("#language").val();
 
   if ($selectedLanguage === "French") {
