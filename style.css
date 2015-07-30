@@ -1,0 +1,16 @@
+body {
+	background-image: url(Christmas.jpg);
+	background-size: cover;
+}
+
+form {
+	margin: 15px;
+}
+
+#translation {
+	background-color: white;
+	color: red;
+	padding: 20px;
+	max-width: 300px;
+	border-radius: 15px;
+}
