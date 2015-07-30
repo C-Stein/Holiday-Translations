@@ -7,13 +7,13 @@
 
          var text = $('input[name="textarea"]').val();
 
-         if(getLanguage === "French") {
+         if($selectedLanguage === "French") {
              language = "fr";
          } 
-         else if (getlanguage === "German") {
+         else if ($selectedLanguage === "German") {
              language = "de"; 
            }
-         else if (getLanguage === "Spanish") {
+         else if ($selectedLanguage === "Spanish") {
              language = "es";
          }
         else
