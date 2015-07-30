@@ -13,15 +13,14 @@ var Translate = (function(argument) {
   };
 
   argument.translateToFrench = function(stuff) {
-       	//turn text into array of words
+    //turn text into array of words
     
       var newWordArray = [];
       var wordArray = stuff.split(" ");
-      console.log(wordArray[0]);
-         console.log(wordArray)
+      console.log(wordArray)
          
-  	//match text words (from array) with new language words
-  	//ITERATE OVER OBJECT
+  	//iterate over object to match text words with new language words
+  	
       for (var i = 0; i < wordArray.length; i++) {
         for (var prop in frenchMatch) {
           if (prop === wordArray[i]) {
@@ -29,9 +28,10 @@ var Translate = (function(argument) {
           }
         }
 	  }
-  	     console.log("newWordArray " + newWordArray)
+  	  console.log("newWordArray " + newWordArray)
 
   	//turn new language words into readable text
+      
       var output = newWordArray.join(" ");
 
       return output;
