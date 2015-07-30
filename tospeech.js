@@ -24,7 +24,7 @@
          console.log(text);
          console.log(language);
        
-          var url = "http://translate.google.com/translate_tts?ie=UTF-8&q=" + text + "&tl=en";
+          var url = "http://translate.google.com/translate_tts?ie=UTF-8&q=" + text + "&tl=en-us";
        
           console.log(url);
           //Sends audio to page 
