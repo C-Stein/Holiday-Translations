@@ -68,7 +68,7 @@ In addition to inserting the translated text into the HTML document, have the br
 
     return german;
 
-})(Translate);
+}(Translate || {}));
 
 
 

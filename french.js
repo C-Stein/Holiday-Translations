@@ -40,4 +40,4 @@ var Translate = (function(argument) {
   return argument;
 
 
-})(Translate);
+}(Translate || {}));
