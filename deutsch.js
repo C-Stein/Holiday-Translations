@@ -51,7 +51,7 @@ In addition to inserting the translated text into the HTML document, have the br
     //match text words (from array) with new language words
     //ITERATE OVER OBJECT
       for (var i = 0; i < wordArray.length; i++) {
-        for (var prop in duetschMatchMatch) {
+        for (var prop in deutschMatch) {
           if (prop === wordArray[i]) {
             newWordArray.push(deutschMatch[prop]);
           }
