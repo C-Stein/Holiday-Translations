@@ -25,7 +25,7 @@ In addition to inserting the translated text into the HTML document, have the br
 
 */
 
-    var Translate = ( function(german) {
+    var Translate = (function(german) {
     
     var deutschMatch = { 
         "hello" : "hallo",
@@ -41,7 +41,7 @@ In addition to inserting the translated text into the HTML document, have the br
       return getDeutschMatch;
     },
 
-    translateToDeutsch: function(deutsch) {
+    german.translateToDeutsch = function(stuff) {
         //turn text into array of words
     
       var newWordArray = [];
@@ -65,8 +65,7 @@ In addition to inserting the translated text into the HTML document, have the br
 
       return output;
     }
-  }
-})();
+})(Translate);
 
 
 

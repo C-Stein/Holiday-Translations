@@ -21,6 +21,7 @@ var Translate = (function() {
       var wordArray = stuff.split(" ");
       console.log(wordArray[0]);
          console.log(wordArray)
+         
   	//match text words (from array) with new language words
   	//ITERATE OVER OBJECT
       for (var i = 0; i < wordArray.length; i++) {
@@ -28,7 +29,6 @@ var Translate = (function() {
           if (prop === wordArray[i]) {
           	newWordArray.push(spanishMatch[prop]);
           }
-
         }
 	  }
   	     console.log("newWordArray " + newWordArray)

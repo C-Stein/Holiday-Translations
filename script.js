@@ -11,7 +11,7 @@ function grabText() {
   	console.log("French slected")
   	$translation.text(Translate.translateToFrench($textarea));
   } else if ($selectedLanguage === "German") {
-    $translation.text(Translate.translateToGerman($textarea));
+    $translation.text(Translate.translateToDeutsch($textarea));
   } else if ($selectedLanguage === "Spanish") {
   	$translation.text(Translate.translateToSpanish($textarea));
   }
