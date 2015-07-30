@@ -29,10 +29,12 @@ In addition to inserting the translated text into the HTML document, have the br
     
     var deutschMatch = { 
         "hello" : "hallo",
-        "christmas" : "weihnachten",
+        "christmas" : "Weihnachten",
         "happy" : "glücklich",
         "new" : "neu",
-        "year" : "jahre" 
+        "year" : "jahre", 
+        "and" : "und",
+        "merry" : "Frohe"
     }
 
     getDeutschMatch = function() {
