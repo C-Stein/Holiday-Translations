@@ -1,17 +1,18 @@
 <!doctype html>
 
+
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Holiday Translations</title>
-  
+  <link rel="stylesheet" href="style.css">  
 </head>
 
 <body>
  <h1>Holiday Translations</h1>
  <form action="" method="POST">
           
-          <input type="textarea" id ="textarea">
+          <input type="textarea" id ="textarea" name="textarea">
           
           <select name="language" id="language">
             <option value="French">French</option>
@@ -20,11 +21,14 @@
           </select>
          
           <input type="button" value="Translate" id="button">
-        </form>
+        
+          <audio src = "" class="speech" hidden><audio>   
+            </form>
 
- <div id="translation">
+<div id="translation">
  </div>	
 <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="tospeech.js"></script>
 <script src="script.js"></script>
 <script src="spanish.js"></script>
 <script src="french.js"></script>
