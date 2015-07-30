@@ -37,7 +37,7 @@ In addition to inserting the translated text into the HTML document, have the br
         "merry" : "Frohe"
     }
 
-    getDeutschMatch = function() {
+    german.getDeutschMatch = function() {
       return getDeutschMatch;
     },
 
@@ -65,6 +65,9 @@ In addition to inserting the translated text into the HTML document, have the br
 
       return output;
     }
+
+    return german;
+
 })(Translate);
 
 
